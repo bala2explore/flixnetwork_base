@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".SearchActivity">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+<androidx.cardview.widget.CardView
+    android:layout_width="329dp"
+    android:layout_height="40dp"
+    android:layout_marginTop="42dp"
+    android:layout_gravity="center_horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+
+        android:background="@drawable/search_rect">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/searchblack"
+            android:layout_marginLeft="16.7dp"
+            android:layout_gravity="center_vertical"/>
+        <customfonts.TextViewSFProDisplaySemibold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13.3sp"
+            android:textColor="#0d0e15"
+            android:lineSpacingExtra="5sp"
+            android:text="Search"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+    <customfonts.TextViewSFProDisplaySemibold
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13.4sp"
+        android:textColor="#768196"
+        android:layout_marginLeft="15.4dp"
+        android:lineSpacingExtra="2.6sp"
+        android:text="Recent Search"
+        android:layout_marginTop="22dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15.4dp"
+        android:layout_marginTop="20.7dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/searchgray"/>
+        <customfonts.TextViewSFProDisplayMedium
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#0d0e15"
+            android:layout_marginLeft="14.6dp"
+            android:lineSpacingExtra="2.7sp"
+            android:text="WSDesign"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15.4dp"
+        android:layout_marginTop="17.7dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/searchgray"/>
+        <customfonts.TextViewSFProDisplayMedium
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#0d0e15"
+            android:layout_marginLeft="14.6dp"
+            android:lineSpacingExtra="2.7sp"
+            android:text="Android Studio"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15.4dp"
+        android:layout_marginTop="15.7dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/searchgray"/>
+        <customfonts.TextViewSFProDisplayMedium
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#0d0e15"
+            android:layout_marginLeft="14.6dp"
+            android:lineSpacingExtra="2.7sp"
+            android:text="UI KIT"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginLeft="13.8dp"
+        android:background="#66707070"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="47dp"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="22.8dp"
+                    android:layout_marginLeft="13dp"
+                    android:background="@drawable/circle_gradient">
+                </LinearLayout>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="14.5dp"
+                    android:src="@drawable/girl1"
+                    app:civ_border_width="2.5dp"
+                    android:layout_marginTop="24.5dp"
+                    android:layout_marginRight="0.5dp"
+                    app:civ_border_color="@color/white"/>
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="8.9dp"
+                android:orientation="vertical">
+                <customfonts.TextViewSFProDisplayBold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13.4sp"
+                    android:textColor="#0d0e15"
+                    android:layout_marginTop="24.3dp"
+                    android:lineSpacingExtra="2.6sp"
+                    android:text="Anthony Cortez"/>
+                <customfonts.TextViewSFProDisplayRegular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12.4sp"
+                    android:textColor="#768196"
+                    android:layout_marginTop="2.5dp"
+                    android:lineSpacingExtra="2.6sp"
+                    android:text="UIUX Designer at WSDesign.in."
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="47dp"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="12.8dp"
+                    android:layout_marginLeft="13dp"
+                    android:background="@drawable/circle_gradient">
+                </LinearLayout>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="14.5dp"
+                    android:src="@drawable/men1"
+                    app:civ_border_width="2.5dp"
+                    android:layout_marginTop="14.5dp"
+                    android:layout_marginRight="0.5dp"
+                    app:civ_border_color="@color/white"/>
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="8.9dp"
+                android:orientation="vertical">
+                <customfonts.TextViewSFProDisplayBold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13.4sp"
+                    android:textColor="#0d0e15"
+                    android:layout_marginTop="15.3dp"
+                    android:lineSpacingExtra="2.6sp"
+                    android:text="Worbes Gates"/>
+                <customfonts.TextViewSFProDisplayRegular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12.4sp"
+                    android:textColor="#768196"
+                    android:lineSpacingExtra="2.6sp"
+                    android:text="Production Manager at WSDesign.in"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="47dp"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="12.8dp"
+                    android:layout_marginLeft="13dp"
+                    android:background="@drawable/circle_gradient">
+                </LinearLayout>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="14.5dp"
+                    android:src="@drawable/men5"
+                    app:civ_border_width="2.5dp"
+                    android:layout_marginTop="14.5dp"
+                    android:layout_marginRight="0.5dp"
+                    app:civ_border_color="@color/white"/>
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="8.9dp"
+                android:orientation="vertical">
+                <customfonts.TextViewSFProDisplayBold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13.4sp"
+                    android:textColor="#0d0e15"
+                    android:layout_marginTop="12.3dp"
+                    android:lineSpacingExtra="2.6sp"
+                    android:text="Rushabh Patel"/>
+                <customfonts.TextViewSFProDisplayRegular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12.4sp"
+                    android:textColor="#768196"
+                    android:lineSpacingExtra="2.6sp"
+                    android:text="UIUX Designer at WSDesign.in."
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="13.8dp"
+            android:background="#66707070"/>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:nestedScrollingEnabled="false"
+        android:clipToPadding="false"
+        android:id="@+id/recyclerView">
+
+    </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+    </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@drawable/flixnetworksearch1"-->
+        <!--android:alpha="0.4"/>-->
+</RelativeLayout>

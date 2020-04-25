@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="flixnetwork_base/app" />
+      <module fileurl="file://$PROJECT_DIR$/custom_ui/custom_ui.iml" filepath="$PROJECT_DIR$/custom_ui/custom_ui.iml" group="flixnetwork_base/custom_ui" />
+      <module fileurl="file://$PROJECT_DIR$/flixnetwork_base.iml" filepath="$PROJECT_DIR$/flixnetwork_base.iml" group="flixnetwork_base" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,84 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="20.8dp"
+            android:background="@drawable/circle_gradient">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="0.5dp"
+                android:src="@drawable/girl1"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="2.5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="25.9dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <customfonts.TextViewSFProDisplayBold
+                android:id="@+id/feed_profile_name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2.6sp"
+                android:text="Anthony Cortez"
+                android:textColor="#0d0e15"
+                android:textSize="13.4sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/marker" />
+
+                    <customfonts.TextViewSFProDisplayRegular
+                        android:id="@+id/feed_profile_place_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3.2dp"
+                        android:lineSpacingExtra="2.1sp"
+                        android:text="London, United Kingdom"
+                        android:textColor="#0d0e15"
+                        android:textSize="11.5sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="14dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginRight="17dp"
+            android:src="@drawable/three_dots" />
+
+
+    </LinearLayout>
+</merge>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.custom_ui.FeedHeader
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <customfonts.TextViewSFProDisplayRegular
+            android:id="@+id/feed_body_desc_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="5.8sp"
+            android:text="Watch my video"
+            android:textColor="#0d0e15"
+            android:textSize="13.4sp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/feed_image_iv"
+            android:layout_width="match_parent"
+            android:layout_height="236dp"
+            android:layout_marginTop="21.4dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/girlhorse" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52.2dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="18.7dp"
+            android:src="@drawable/likewithborder" />
+
+        <customfonts.TextViewSFProDisplayMedium
+            android:id="@+id/feed_like_count_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="7.3dp"
+            android:lineSpacingExtra="2.6sp"
+            android:text="534"
+            android:textColor="#0d0e15"
+            android:textSize="13.4sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12.6dp"
+            android:src="@drawable/whotechat"
+            android:tint="@color/black" />
+
+        <customfonts.TextViewSFProDisplayMedium
+            android:id="@+id/feed_comment_count_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="7.3dp"
+            android:lineSpacingExtra="2.6sp"
+            android:text="54"
+            android:textColor="#0d0e15"
+            android:textSize="13.4sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12.6dp"
+                android:src="@drawable/whiteshare"
+                android:tint="@color/black" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="24.6dp"
+            android:layout_marginRight="15.4dp"
+            android:src="@drawable/bookmark_black"
+            android:tint="@color/black" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="7.3dp"
+        android:background="#e5e7e8" />
+
+</LinearLayout>

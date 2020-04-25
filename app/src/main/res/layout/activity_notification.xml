@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".NotificationActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="40dp">
+
+        <customfonts.TextViewSFProDisplayMedium
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#0d0e15"
+            android:lineSpacingExtra="3sp"
+            android:text="Notifications"
+            android:layout_marginLeft="17.6dp"
+            />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:background="#66707070"
+        android:layout_marginTop="18.8dp"/>
+
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:paddingLeft="15.4dp"
+        android:paddingBottom="20dp"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/img1"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:src="@drawable/girl6"
+            app:civ_border_width="0dp"
+            android:layout_gravity="center"
+            app:civ_border_color="#ffffff"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+        <customfonts.TextViewSFProDisplayMedium
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="14sp"
+            android:textColor="#0d0e15"
+            android:lineSpacingExtra="5.2sp"
+            android:text="Ricky Willis commented on your post :\n
+«Wow, great shot!»"
+            />
+            <customfonts.TextViewSFProDisplayRegular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11.5sp"
+                android:textColor="#768196"
+                android:lineSpacingExtra="2.1sp"
+                android:text="5 min ago"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:src="@drawable/men3"
+            app:civ_border_width="0dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="2.5dp"
+            app:civ_border_color="#ffffff"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <customfonts.TextViewSFProDisplayMedium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:textSize="14sp"
+                android:textColor="#0d0e15"
+                android:lineSpacingExtra="5.2sp"
+                android:text="Allie Hall started following\nyou "
+                />
+            <customfonts.TextViewSFProDisplayRegular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11.5sp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#768196"
+                android:lineSpacingExtra="2.1sp"
+                android:text="8 min ago"
+                />
+        </LinearLayout>
+        <customfonts.TextViewSFProDisplayMedium
+            android:layout_width="67dp"
+            android:layout_height="26dp"
+            android:background="@drawable/blue_rect"
+            android:textSize="12sp"
+            android:layout_marginRight="11.5dp"
+            android:layout_marginTop="16.5dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:lineSpacingExtra="19.3sp"
+            android:text="Follow"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="23dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:src="@drawable/men4"
+            app:civ_border_width="0dp"
+            android:layout_gravity="top"
+            android:layout_marginLeft="2.5dp"
+            app:civ_border_color="#ffffff"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <customfonts.TextViewSFProDisplayMedium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:textSize="14sp"
+                android:textColor="#0d0e15"
+                android:lineSpacingExtra="5.2sp"
+                android:text="Allie Hall started following
+you "
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal">
+               re
+                <com.github.siyamed.shapeimageview.mask.PorterShapeImageView
+                    android:layout_width="57dp"
+                    android:layout_height="57dp"
+                    android:id="@+id/image1"
+                    android:scaleType="fitXY"
+                    app:siShape="@drawable/rect1"
+                    android:src="@drawable/monument2"
+                    app:siSquare="true"/>
+                <com.github.siyamed.shapeimageview.mask.PorterShapeImageView
+                    android:layout_width="57dp"
+                    android:layout_height="57dp"
+                    android:id="@+id/image2"
+                    android:scaleType="fitXY"
+                    android:layout_marginLeft="10dp"
+                    app:siShape="@drawable/rect1"
+                    android:src="@drawable/monument3"
+                    app:siSquare="true"/>
+
+            </LinearLayout>
+            <customfonts.TextViewSFProDisplayRegular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11.5sp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#768196"
+                android:lineSpacingExtra="2.1sp"
+                android:text="8 min ago"
+                />
+        </LinearLayout>
+        
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="23dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:src="@drawable/girl1"
+            app:civ_border_width="0dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="2.5dp"
+            app:civ_border_color="#ffffff"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <customfonts.TextViewSFProDisplayMedium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:textSize="14sp"
+                android:textColor="#0d0e15"
+                android:lineSpacingExtra="5.2sp"
+                android:text="Allie Hall started following
+you "
+                />
+            <customfonts.TextViewSFProDisplayRegular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11.5sp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#768196"
+                android:lineSpacingExtra="2.1sp"
+                android:text="8 min ago"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="23dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:src="@drawable/girl7"
+            app:civ_border_width="0dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="2.5dp"
+            app:civ_border_color="#ffffff"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <customfonts.TextViewSFProDisplayMedium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:textSize="14sp"
+                android:textColor="#0d0e15"
+                android:lineSpacingExtra="5.2sp"
+                android:text="Allie Hall started following
+you "
+                />
+            <customfonts.TextViewSFProDisplayRegular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11.5sp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#768196"
+                android:lineSpacingExtra="2.1sp"
+                android:text="8 min ago"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:src="@drawable/men5"
+            app:civ_border_width="0dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="2.5dp"
+            app:civ_border_color="#ffffff"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <customfonts.TextViewSFProDisplayMedium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:textSize="14sp"
+                android:textColor="#0d0e15"
+                android:lineSpacingExtra="5.2sp"
+                android:text="Ricky Willis commented on your post :\n
+«Wow, great shot!»"
+                />
+            <customfonts.TextViewSFProDisplayRegular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11.5sp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#768196"
+                android:lineSpacingExtra="2.1sp"
+                android:text="5 min ago"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="23dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:src="@drawable/men3"
+            app:civ_border_width="0dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="2.5dp"
+            app:civ_border_color="#ffffff"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <customfonts.TextViewSFProDisplayMedium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:textSize="14sp"
+                android:textColor="#0d0e15"
+                android:lineSpacingExtra="5.2sp"
+                android:text="Allie Hall started following
+you "
+                />
+            <customfonts.TextViewSFProDisplayRegular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11.5sp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#768196"
+                android:lineSpacingExtra="2.1sp"
+                android:text="8 min ago"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="23dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:src="@drawable/men11"
+            app:civ_border_width="0dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="2.5dp"
+            app:civ_border_color="#ffffff"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <customfonts.TextViewSFProDisplayMedium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:textSize="14sp"
+                android:textColor="#0d0e15"
+                android:lineSpacingExtra="5.2sp"
+                android:text="Allie Hall started following
+you "
+                />
+            <customfonts.TextViewSFProDisplayRegular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11.5sp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#768196"
+                android:lineSpacingExtra="2.1sp"
+                android:text="8 min ago"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="23dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:src="@drawable/men12"
+            app:civ_border_width="0dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="2.5dp"
+            app:civ_border_color="#ffffff"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <customfonts.TextViewSFProDisplayMedium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:textSize="14sp"
+                android:textColor="#0d0e15"
+                android:lineSpacingExtra="5.2sp"
+                android:text="Allie Hall started following
+you "
+                />
+            <customfonts.TextViewSFProDisplayRegular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11.5sp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#768196"
+                android:lineSpacingExtra="2.1sp"
+                android:text="8 min ago"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+        </LinearLayout>
+
+        <!--<ImageView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@drawable/notification1"/>-->
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

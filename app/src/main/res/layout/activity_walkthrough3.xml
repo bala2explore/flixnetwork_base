@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Walkthrough3Activity">
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="8dp"
+                android:orientation="horizontal">
+
+
+                <customfonts.TextViewSFProDisplayHeavy
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Flix"/>
+                <customfonts.TextViewSFProDisplayMedium
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Network"/>
+                <customfonts.TextViewSFProDisplayRegular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16.3sp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#8c8c8c"
+                    android:text="Skip"
+                    />
+
+
+            </LinearLayout>
+
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:orientation="horizontal">
+        <com.github.siyamed.shapeimageview.mask.PorterShapeImageView
+            android:layout_width="200dp"
+            android:layout_height="108dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="4dp"
+            android:id="@+id/image"
+            android:scaleType="fitXY"
+            app:siShape="@drawable/rect1"
+            android:src="@drawable/cycle"
+           />
+        <com.github.siyamed.shapeimageview.mask.PorterShapeImageView
+            android:layout_width="108dp"
+            android:layout_height="108dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="4dp"
+            android:scaleType="fitXY"
+            app:siShape="@drawable/rect1"
+            android:src="@drawable/pinappple"
+            />
+        <com.github.siyamed.shapeimageview.mask.PorterShapeImageView
+            android:layout_width="208dp"
+            android:layout_height="108dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="4dp"
+            android:scaleType="fitXY"
+            app:siShape="@drawable/rect1"
+            android:src="@drawable/girlhorse"
+            />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+            <com.github.siyamed.shapeimageview.mask.PorterShapeImageView
+                android:layout_width="170dp"
+                android:layout_height="225dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginLeft="4dp"
+                android:scaleType="fitXY"
+                app:siShape="@drawable/rect1"
+                android:src="@drawable/work2"
+                />
+            <com.github.siyamed.shapeimageview.mask.PorterShapeImageView
+                android:layout_width="170dp"
+                android:layout_height="225dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginLeft="4dp"
+                android:scaleType="fitXY"
+                app:siShape="@drawable/rect1"
+                android:src="@drawable/cycle2"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.github.siyamed.shapeimageview.mask.PorterShapeImageView
+                    android:layout_width="200dp"
+                    android:layout_height="108dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:scaleType="fitXY"
+                    app:siShape="@drawable/rect1"
+                    android:src="@drawable/beach"
+                    />
+                <com.github.siyamed.shapeimageview.mask.PorterShapeImageView
+                    android:layout_width="200dp"
+                    android:layout_height="108dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginLeft="6dp"
+                    android:scaleType="fitXY"
+                    app:siShape="@drawable/rect1"
+                    android:src="@drawable/beachredglass"
+                    android:layout_marginTop="8dp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <customfonts.TextViewSFProDisplayBold
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23.3sp"
+        android:layout_marginTop="33.6dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/blackTxt"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:lineSpacingExtra="4.7sp"
+        android:gravity="center_horizontal"
+        android:text="Discover tons of photos  and
+videos around the world…"
+        />
+    <customfonts.TextViewSFProDisplayMedium
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textColor="#8c8c8c"
+        android:layout_marginRight="82dp"
+        android:layout_marginLeft="86dp"
+        android:letterSpacing="0.0265"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/be_social_and_make_new_friends"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    <customfonts.Button_SfPro_Medium
+        android:layout_width="93dp"
+        android:layout_height="36dp"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:text="Signup"
+
+        android:gravity="center"
+        android:paddingBottom="2dp"
+        android:textAllCaps="false"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/black_signup_rect"/>
+        <customfonts.TextViewSFProDisplayMedium
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#fe2042"
+            android:layout_marginTop="5dp"
+            android:lineSpacingExtra="16.3sp"
+            android:layout_marginRight="25sp"
+            android:text="Login"
+            android:layout_gravity="right"
+            />
+
+        </FrameLayout>
+    </LinearLayout>
+
+            </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+
+
+        <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@drawable/walkthorugh3"-->
+        <!--android:alpha="0.4"/>-->
+    </FrameLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+   <customfonts.TextViewSFProDisplayHeavy
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textColor="@color/black"
+       android:textSize="15sp"
+       android:layout_marginRight="5dp"
+       android:text="Flix"/>
+    <customfonts.TextViewSFProDisplayMedium
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginLeft="5dp"
+        android:text="Network"/>
+    <customfonts.TextViewSFProDisplayRegular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14.3sp"
+        android:layout_marginRight="26.7dp"
+        android:textColor="#8c8c8c"
+
+
+        android:layout_gravity="right"
+        android:text="Skip"
+        />
+
+
+</androidx.appcompat.widget.Toolbar>

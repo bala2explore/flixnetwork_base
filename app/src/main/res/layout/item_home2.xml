@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:id="@+id/add"
+            android:visibility="gone"
+            android:src="@drawable/addstory"
+            android:layout_marginRight="3dp"/>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="3dp">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:background="@drawable/grey_circle">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/img1"
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:src="@drawable/img1"
+            app:civ_border_width="2.5dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="2.5dp"
+            app:civ_border_color="#ffffff"/>
+    </LinearLayout>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="65dp"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:id="@+id/img2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="2dp"
+            android:src="@drawable/img1"
+            app:civ_border_width="2.5dp"
+            android:layout_gravity="center"
+            app:civ_border_color="#ffffff"/>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="42.2dp"
+        android:layout_height="19dp"
+
+        android:layout_marginTop="39dp"
+        android:layout_marginLeft="10dp">
+        <customfonts.TextViewSFProDisplayMedium
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/frameLive"
+            android:background="@drawable/pink_rect"
+            android:textSize="10sp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:text="Live"
+            />
+
+    </FrameLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

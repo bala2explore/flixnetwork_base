@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="wolfsoft1.flixnetwork">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Hotel_Inn_List_Activity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Walkthrough1Activity" />
+        <activity
+            android:name=".ImagePostActivity"
+            android:fitsSystemWindows="true"
+            android:theme="@style/MyTheme" />
+        <activity android:name=".Walkthrough3Activity" />
+        <activity android:name=".JoinActivity" />
+        <activity android:name=".PostDetailActivity" />
+        <activity android:name=".SettingActivity" />
+        <activity
+            android:name=".CallActivity"
+            android:fitsSystemWindows="true"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".CallupActivity"
+            android:fitsSystemWindows="true"
+            android:theme="@style/MyTheme" />
+        <activity android:name=".Home1Activity" />
+        <activity android:name=".Home2Activity" />
+        <activity android:name=".Home3Activity" />
+        <activity android:name=".CreateAccountActivity" />
+        <activity android:name=".SearchActivity" />
+        <activity
+            android:name=".ProfileActivity"
+            android:fitsSystemWindows="true"
+            android:theme="@style/MyTheme" />
+        <activity android:name=".Walkthrough2Activity" />
+        <activity android:name=".NotificationActivity" />
+        <activity android:name=".Profile2Activity" />
+        <activity android:name=".AddPostActivity"
+            android:windowSoftInputMode="stateVisible|adjustResize"/>
+        <activity android:name=".CameraActivity"></activity>
+    </application>
+
+</manifest>
