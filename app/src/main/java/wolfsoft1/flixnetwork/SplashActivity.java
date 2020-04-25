@@ -28,6 +28,8 @@ public class SplashActivity extends AppCompatActivity {
         feedBody.setFeedLikeCount("100");
         feedBody.setFeedCommentCount("50");
 
+        System.out.println("Test");
+
 
 
 
